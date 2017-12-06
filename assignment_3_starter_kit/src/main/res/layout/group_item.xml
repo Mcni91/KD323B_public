@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="36dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/imageTransportType"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/description_transport_type"
+        android:src="@drawable/ic_bus_white_24dp" />
+
+    <TextView
+        android:id="@+id/textTransportType"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center_vertical|fill_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/temp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textTimeToDeparture"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_column="19"
+        android:layout_row="0"
+        android:gravity="center_vertical|fill_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/temp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="18"
+        android:layout_row="0"
+        android:contentDescription="@string/description_delayed"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/ic_warning_white_24dp" />
+
+</GridLayout>

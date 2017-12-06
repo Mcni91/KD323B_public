@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 Copyright (C) 2012 The Android Open Source Project
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,4 +20,40 @@ limitations under the License.
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Departures</string>
+    <string name="description_transport_type">Transport type</string>
+    <string name="description_delayed">Delayed</string>
+
+    <string name="hours_minutes_short">%dh %dm</string>
+    <string name="minutes_short">%sm</string>
+    <string name="pagatag">Pågatåg</string>
+    <string name="oresundstag">Öresundståg</string>
+    <string name="delay">Delay</string>
+    <string name="no_delay">-</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="temp">temp</string>
+    <string name="refresh">Refresh</string>
+
+
+    //This array and the one below (stationNumbers) must me in sync. I.e. item 1 on both refers to the same station.
+    <string-array name="stationNames">
+        <item>Lund C</item>
+        <item>Ystad Klostret</item>
+        <item>Lund Bankgatan</item>
+        <item>Malmö C</item>
+        <item>Malmö Triangeln</item>
+        <item>Köpenhamn H</item>
+        <item>Halmstad C</item>
+    </string-array>
+
+    <string-array name="stationNumbers">
+        <item>81216</item>
+        <item>86197</item>
+        <item>81156</item>
+        <item>80000</item>
+        <item>80140</item>
+        <item>45007</item>
+        <item>13003</item>
+    </string-array>
 </resources>
